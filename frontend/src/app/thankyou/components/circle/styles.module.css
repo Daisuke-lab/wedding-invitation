@@ -1,0 +1,28 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #ddbea9;
+    color: black;
+    text-align: center;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    .circle {
+        margin: 10px;
+        width: 70px;
+        height: 70px;
+        border: 4px solid #f182a7;
+    }
+}
+

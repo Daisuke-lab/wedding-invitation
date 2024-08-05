@@ -1,0 +1,40 @@
+
+
+.container {
+    width: 100%;
+    min-height: 900px;
+    background-color: #f5ebe0;
+}
+
+.title {
+    font-size: 30px;
+    letter-spacing: 1.25cm;
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+    .title {
+        letter-spacing: 0.25cm;
+    }
+}
+.description {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    text-align-last: center;
+}
+
+.slider {
+    width: 80%;
+}
+.slider div {
+    background-position: center;
+}

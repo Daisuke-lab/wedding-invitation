@@ -1,0 +1,43 @@
+.title {
+    color:white;
+    filter: brightness(1);
+    z-index: 2;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.6);
+    position: absolute;
+  }
+
+  .circleContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    width: 100vw;
+    height: 20vh;
+  }
+
+  @media (max-width: 768px) {
+    .background {
+        background-image: url('/thankyou/sp/491A3159.JPG');
+    }
+}
+
+@media (min-width: 769px) {
+
+    .background {
+        background-image: url('/thankyou/pc/491A3300.JPG');
+    }
+}
+

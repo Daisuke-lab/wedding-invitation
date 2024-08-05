@@ -1,0 +1,54 @@
+
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+
+
+
+
+@media (max-width: 768px) {
+    .inputContainer {
+        width: 80%;
+        height: 50vh;
+    }
+
+
+    .background {
+        background-image: url('/form/sp/sakura.png');
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 769px) {
+    .inputContainer {
+        width: 30%;
+        height: 60vh;
+    }
+
+    .background {
+        background-image: url('/form/pc/sakura.png');
+    }
+}
+
+
+
+/* 
+.buttonContainer {
+    width: 100%;
+    flex-grow: 0.4;
+}
+
+.submitButton {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    
+} */
+

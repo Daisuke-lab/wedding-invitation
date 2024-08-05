@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    min-height: 300px;
+    background-color: #f8edeb;
+}
+
+.registrationButton {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    
+}
+
+.description {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-align-last: center;
+}
