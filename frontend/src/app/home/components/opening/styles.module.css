@@ -12,7 +12,7 @@
 
 
   .background {
-    background-image: url('/home/pc/491A2644.JPG');
+    background-image: url('/home/pc/491A2659.jpg');
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -44,6 +44,11 @@
     opacity: 1;
   }
 
+  .languageSetting {
+    text-align: right;
+  }
+
+  
 
 
 
@@ -75,12 +80,13 @@
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
-        background-image: url('/home/sp/491A2722.JPG');
+        background-image: url('/home/sp/491A2722.jpg');
       }
   
       .title {
         font-size: 30px;
         flex-direction: column;
+        align-content: center;
       }
       .blankContent {
         min-height: 100px;

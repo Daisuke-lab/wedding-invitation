@@ -18,5 +18,37 @@
     font-weight: 400;
     font-style: normal;
     margin: 10px;
+    white-space: break-spaces;
     text-align-last: center;
+    text-align: center;
+}
+
+.weddingBoxTitle {
+    text-align: center;
+    font-size: 40px;
+    /* letter-spacing: 1.25cm; */
+    margin: 10px;
+    font-family: "Tangerine", cursive;
+    /* font-optical-sizing: auto; */
+    font-weight: 300;
+    font-style: normal;
+    text-align-last: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+.bankAccountTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.giftButton {
+    width: 100%;
+    text-align: center;
+}
+
+.giftButton svg {
+    width: 50px;
+    height: 50px;
 }

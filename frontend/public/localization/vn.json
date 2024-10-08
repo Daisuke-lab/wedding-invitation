@@ -1,0 +1,26 @@
+
+{
+    "greeting_message": "Tình yêu của chúng mình đã có cái kết đẹp: là một đám cưới nho nhỏ vào hè này.\nVậy nên, trân trọng kính mời bạn đến tham dự lễ thành hôn của chúng mình.",
+    "date_label": "Thời gian",
+    "location_label": "Địa điểm",
+    "adding_to_calendar_label": "Thêm vào lịch",
+    "selecting_calendar_message": "Hãy chọn loại lịch bạn muốn thêm",
+    "pre_wedding_title": "Lễ ăn hỏi",
+    "wedding_title": "Lễ cưới & Tiệc",
+    "timeline_dinner_label": "Bữa cơm thân mật",
+    "registration_request_message": "Chúng mình biết các bạn đều đang rất bận, nhưng thực sự sẽ rất tuyệt vời nếu có sự hiện diện của bạn trong ngày quan trọng này để chứng kiến và chia sẻ niềm hạnh phúc cùng chúng mình.\n Hãy bớt chút thời gian xác nhận tham dự bằng cách điền form dưới đây để gia đình mình tiếp đón được chu đáo hơn nhé. ",
+    "registration_request_button": "Xác nhận",
+    "registration_for_unattendee": "お越しになれない方へ",
+    "form_name_label": "Họ và tên của bạn",
+    "form_attending_label": "Có, tôi sẽ đến",
+    "form_unattending_label": "Xin lỗi, tôi bận mất rồi",
+    "form_hotel_control_label": "Bạn sẽ:",
+    "form_hotel_needed_label": "Tham dự tiệc tối 28",
+    "form_hotel_unneeded_label": "Tham dự lễ cưới 29 ",
+    "form_message_label": "Lời chúc",
+    "form_message_placeholder": "Gửi lời chúc cho chúng mình ở đây nhé!",
+    "form_required_error_messsage": "Mục bắt buộc",
+    "form_submit_label": "Gửi", 
+    "form_sent_mssage": "Đã gửi form xác nhận",
+    "form_server_unknown_error_message":"Đã xảy ra lỗi. Tên người tham dự này đã được gửi "
+}

@@ -35,6 +35,21 @@ declare module '@mui/material/Radio' {
   }
   }
 
+declare module '@mui/lab/TimelineDot' {
+  interface TimelineDotPropsColorOverrides {
+      pink: true;
+      brown:true;
+  }
+}
+
+declare module '@mui/material/IconButton' {
+  interface IconButtonPropsColorOverrides {
+      pink: true;
+      brown:true;
+  }
+}
+
+
 
 const theme = createTheme({
     palette: {

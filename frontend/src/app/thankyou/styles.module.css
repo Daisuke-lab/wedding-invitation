@@ -28,9 +28,11 @@
     height: 20vh;
   }
 
+
+
   @media (max-width: 768px) {
     .background {
-        background-image: url('/thankyou/sp/491A3159.JPG');
+        background-image: url('/thankyou/sp/491A3159.jpg');
     }
 }
 

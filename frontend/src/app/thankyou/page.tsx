@@ -2,7 +2,7 @@
 import { useTimer } from 'react-timer-hook';
 import styles from "./styles.module.css"
 import Title from "./components/title/Title"
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Circle from './components/circle/Circle';
 import { Animated } from 'react-animated-css';
 import { isPC } from '@/utils/AgentUtil';
@@ -10,7 +10,8 @@ import { isPC } from '@/utils/AgentUtil';
 
 
 export default function Thankyou() {
-    const weddingDay = new Date(2024,9.29);
+    const AnyAnimated = Animated as any
+    const weddingDay = new Date("2024-09-29T10:30:00.000+07:00");
     const [titleDisplayed, setTitleDisplayed] = useState<boolean>(false)
     const {
         totalSeconds,
@@ -24,6 +25,7 @@ export default function Thankyou() {
         resume,
         restart,
       } = useTimer({ expiryTimestamp: weddingDay, onExpire: () => console.warn('onExpire called') });
+
     return (
         <>
     <div className={`${styles.background}`}>
@@ -32,18 +34,23 @@ export default function Thankyou() {
         <Title setTitleDisplayed={setTitleDisplayed}/>
         <div className={styles.circleContainer}>
         {titleDisplayed?(<>
-        <Animated animationIn="flipInY" isVisible={true} animationInDuration={2000}>
+        <AnyAnimated animationIn="flipInY" isVisible={true} animationInDuration={2000}
+        style={{animationFillMode: "backwards"}}>
             <Circle innerNumber={days} label="days"/>
-        </Animated>
-        <Animated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={500}>
+        </AnyAnimated>
+        <AnyAnimated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={500}
+        style={{animationFillMode: "backwards"}}>
             <Circle innerNumber={hours} label="hours"/>
-        </Animated>
-        <Animated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={1000}>
+        </AnyAnimated>
+        <AnyAnimated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={1000}
+        style={{animationFillMode: "backwards"}}>
             <Circle innerNumber={minutes} label="minutes"/>
-        </Animated>
-        <Animated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={1500}>
+        </AnyAnimated>
+        <AnyAnimated animationIn="flipInY" isVisible={true} animationInDuration={2000} animationInDelay={1500}
+        style={{animationFillMode: "backwards"}} >
             <Circle innerNumber={seconds} label="seconds"/>
-        </Animated>
+        </AnyAnimated>
+
             </>):<></>}
         </div>
         

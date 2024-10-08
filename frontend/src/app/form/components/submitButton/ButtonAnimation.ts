@@ -1,6 +1,10 @@
 import { gsap } from 'gsap';
 
 export default function addAnimation(button:HTMLButtonElement) {
+      if (button.classList.contains('active')) {
+        return 
+    }
+    button.classList.add('active');
     gsap.to(button, {
         keyframes: [
           {

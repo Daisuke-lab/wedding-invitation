@@ -27,7 +27,7 @@ export default function Description()  {
             <span style={{animation: "fadeIn 7.0s"}}>r</span>
             <span style={{animation: "fadeIn 7.5s"}}>i</span>
             <span style={{animation: "fadeIn 8.0s"}}>e</span>
-            <span style={{animation: "fadeIn 8.5s"}}>d.</span>
+            <span style={{animation: "fadeIn 8.5s"}}>d</span>
         </p>
     )
 }

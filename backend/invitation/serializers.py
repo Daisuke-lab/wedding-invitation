@@ -7,6 +7,9 @@ class InvitationSerializer(serializers.ModelSerializer):
         model = Invitation
         fields = ["name", "attending", "hotel_needed", "message"]
 
+    # def validate(self, attrs):
+    #     print("attrs:", attrs)
+    #     return attrs
 
     def create(self, validated_data):
         print(validated_data)
